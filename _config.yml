@@ -15,15 +15,24 @@
 # in the templates via {{ site.myvariable }}.
 title: AllyDesk
 email: hello@allydesk.com
-logo_url: https://allydesk.com/web/img/Logo-Horizontal-p-500.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://blog.allydesk.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: AllyDeskSupport
+twitter:
+  username: allydesksupport
+logo: https://allydesk.com/web/img/Logo-Horizontal-p-500.png
+
+social:
+  name: AllyDesk
+  ceator: allydesksupport
+  links:
+    - https://twitter.com/allydesksupport
+    - https://github.com/allydesk
+
+twitter_username: allydesksupport
+github_username:  allydesk
 
 # Build settings
 markdown: kramdown
@@ -31,6 +40,7 @@ theme: minima
 highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
