@@ -1,0 +1,47 @@
+$midnight: #202633;
+
+.site-header {
+  background-color: #202633;
+  border-top-color: $brand-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.12);
+}
+
+.site-footer {
+  text-align: center;
+  border: 0;
+}
+
+.site-nav .page-link {
+  color: #fff;
+}
+
+.page-content {
+  padding-bottom: 0;
+}
+
+.site-title {
+  img {
+    max-height: 40px;
+  }
+}
+
+.h-entry {
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.06);
+  border-radius: 4px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 8rem;
+
+  .post-header {
+    text-align: center;
+  }
+}
+
+pre, code {
+  background-color: #f9f7f3;
+  border: 0;
+}
